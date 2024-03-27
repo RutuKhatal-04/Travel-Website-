@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/Style.css" />
+
+    <!-- font awesome kit code -->
+    <script
+      src="https://kit.fontawesome.com/c757500192.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Travel Website</title>
+  </head>
+  <body>
+    <nav class="navbar bg-dark">
+      <div class="container">
+        <h1 class="logo lg-heading text-light">World Tour</h1>
+        <ul class="nav-items">
+          <li class="nav-item"><a href="./Index.html"> Home </a></li>
+          <li class="nav-item"><a href="./About.html"> About </a></li>
+          <li class="nav-item"><a href="./Contact.html"> contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="contact-form">
+      <div class="container">
+        <div class="form-wrapper">
+          <div class="company-address">
+            <div class="address-group">
+              <i class="fa-solid fa-location-dot fa-3x text-red"></i>
+              <h2 class="text-grey md-heading">Location</h2>
+              <p>Lorem, ipsum dolor.</p>
+            </div>
+            <div class="address-group">
+              <i class="fa-solid fa-envelope fa-3x text-red"></i>
+              <h2 class="text-grey md-heading">Email</h2>
+              <p>Lorem, ipsum dolor.</p>
+            </div>
+            <div class="address-group">
+              <i class="fa-solid fa-phone fa-3x text-red"></i>
+              <h2 class="text-grey md-heading">Call</h2>
+              <p>Lorem, ipsum dolor.</p>
+            </div>
+            <img src="./img/company-img.jpg" alt="company image" />
+          </div>
+          <form action="" class="form">
+            <h1 class="lg-heading text-black">Contact Us</h1>
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input type="text" id="username" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="text" id="phone" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea name="" id="message" cols="30" rows="10"></textarea>
+            </div>
+
+            <button type="submit" class="form-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="social-media-links">
+        <!-- fa-4x is used to increase size 4times -->
+        <i class="fa-brands fa-facebook fa-4x"></i>
+        <i class="fa-brands fa-x-twitter fa-4x"></i>
+        <i class="fa-brands fa-instagram fa-4x"></i>
+      </div>
+      <p>World Travel &copy; 2023, All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
